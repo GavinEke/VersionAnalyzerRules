@@ -12,7 +12,7 @@ WMF Versions 3-5 Supported. Supported Operating Systems:
 * Windows Server 2008 R2 SP1
 * Windows 7 SP1
 
-If you want like to contribute or report an issue please do so on GitHub.
+If you would like to contribute or report an issue please do so on GitHub.
 
 Example Usage - `Invoke-ScriptAnalyzer -Path "C:\Program Files\WindowsPowerShell\Modules\Pester" -Recurse -CustomRulePath "C:\VersionAnalyzerRules"`
 
