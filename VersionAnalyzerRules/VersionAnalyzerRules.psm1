@@ -116,7 +116,7 @@ Function Test-PowerShellv3Command {
 		
 		If ($cmdName -in $cmds) {
 			$result = [PSCustomObject]@{
-				"Message" = "$cmdName might require PowerShell version 3 or higher.";
+				"Message" = "$cmdName requires PowerShell version 3 or higher.";
 				"Extent" = $CommandAst.Extent;
 				"RuleName" = "Test-PowerShellv3Command";
 				"Severity" = "Warning"
@@ -176,7 +176,7 @@ Function Test-PowerShellv4Command {
 		
 		If ($cmdName -in $cmds) {
 			$result = [PSCustomObject]@{
-				"Message" = "$cmdName might require PowerShell version 4 or higher.";
+				"Message" = "$cmdName requires PowerShell version 4 or higher.";
 				"Extent" = $CommandAst.Extent;
 				"RuleName" = "Test-PowerShellv4Command";
 				"Severity" = "Warning"
@@ -319,7 +319,7 @@ Function Test-PowerShellv5Command {
 		
 		If ($cmdName -in $cmds) {
 			$result = [PSCustomObject]@{
-				"Message" = "$cmdName might require PowerShell version 5 or higher.";
+				"Message" = "$cmdName requires PowerShell version 5 or higher.";
 				"Extent" = $CommandAst.Extent;
 				"RuleName" = "Test-PowerShellv5Command";
 				"Severity" = "Warning"
@@ -1141,7 +1141,7 @@ Function Test-OS62Command {
 		
 		If ($cmdName -in $cmds) {
 			$result = [PSCustomObject]@{
-				"Message" = "$cmdName might require Windows 8.1/Windows Server 2012 R2 or higher.";
+				"Message" = "$cmdName requires Windows 8.1/Windows Server 2012 R2 or higher.";
 				"Extent" = $CommandAst.Extent;
 				"RuleName" = "Test-OS62Command";
 				"Severity" = "Warning"
@@ -1294,7 +1294,7 @@ Function Test-OS10Command {
 		
 		If ($cmdName -in $cmds) {
 			$result = [PSCustomObject]@{
-				"Message" = "$cmdName might require Windows 10 or higher.";
+				"Message" = "$cmdName requires Windows 10 or higher.";
 				"Extent" = $CommandAst.Extent;
 				"RuleName" = "Test-OS10Command";
 				"Severity" = "Warning"
@@ -1353,7 +1353,7 @@ Function Test-ServerOSCommand {
 		
 		If ($cmdName -in $cmds) {
 			$result = [PSCustomObject]@{
-				"Message" = "$cmdName might not run on Windows Server OS.";
+				"Message" = "$cmdName does not run on server core.";
 				"Extent" = $CommandAst.Extent;
 				"RuleName" = "Test-ServerOSCommand";
 				"Severity" = "Warning"
