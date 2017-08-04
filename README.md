@@ -21,12 +21,12 @@ If you would like to contribute or report an issue please do so on GitHub.
 | Windows Nano Server        |                    |                    | N/A                | N/A                | N/A                | N/A     |
 | Windows Server 2016        |                    | :heavy_check_mark: | N/A                | N/A                | N/A                | N/A     |
 | Windows 10                 |                    | :heavy_check_mark: | :heavy_check_mark: | N/A                | N/A                | N/A     |
-| Windows Server 2012 R2     |                    | :heavy_check_mark: | :heavy_check_mark: |                    | N/A                | N/A     |
-| Windows 8.1                |                    | :heavy_check_mark: | :heavy_check_mark: |                    | N/A                | N/A     |
-| Windows Server 2008 R2 SP1 |                    | :heavy_check_mark: | :heavy_check_mark: |                    |                    |         |
-| Windows 7 SP1              |                    | :heavy_check_mark: | :heavy_check_mark: |                    |                    |         |
+| Windows Server 2012 R2     |                    | :heavy_check_mark: | :heavy_check_mark: | :x:                | N/A                | N/A     |
+| Windows 8.1                |                    | :heavy_check_mark: | :heavy_check_mark: | :x:                | N/A                | N/A     |
+| Windows Server 2008 R2 SP1 |                    | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:     |
+| Windows 7 SP1              |                    | :heavy_check_mark: | :heavy_check_mark: | :x:                | :x:                | :x:     |
 
-Systems without a green tick either this module will not run on these systems or will not be tested for compatibility and as such are unsupported.
+Systems without a green tick or red cross have not be tested for compatibility and as such are unsupported.
 
 ## Examples
 
