@@ -18,7 +18,7 @@ If you would like to contribute or report an issue please do so on GitHub.
 
 | Operating System Version   | Core 6 Beta        | WMF 5.1            | WMF 5.0            | WMF 4.0            | WMF 3.0            | WMF 2.0 |
 |----------------------------|--------------------|--------------------|--------------------|--------------------|--------------------|---------|
-| Windows Nano Server        |                    | :heavy_check_mark: | N/A                | N/A                | N/A                | N/A     |
+| Windows Nano Server        |                    |                    | N/A                | N/A                | N/A                | N/A     |
 | Windows Server 2016        |                    | :heavy_check_mark: | N/A                | N/A                | N/A                | N/A     |
 | Windows 10                 |                    | :heavy_check_mark: | :heavy_check_mark: | N/A                | N/A                | N/A     |
 | Windows Server 2012 R2     |                    | :heavy_check_mark: | :heavy_check_mark: |                    | N/A                | N/A     |
